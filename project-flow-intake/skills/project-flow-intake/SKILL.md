@@ -1,11 +1,13 @@
 ---
 name: project-flow-intake
-description: Route new projects, project handoffs and delivery surfaces through the shared workflow workbench. Also use for design-spec documentation, reference-website reconstruction, style-token extraction and Figma component expansion. Excludes ordinary implementation in an already selected branch.
+description: Route new projects, project handoffs, delivery surfaces and compound requests spanning workflow stages through the shared workflow workbench. Also use for design-spec documentation, reference-website reconstruction, style-token extraction and Figma component expansion. Excludes ordinary implementation in an already selected branch.
 ---
 
 # Project flow intake
 
 Use the shared workbench at `E:/project/Bdesign/work/project-workflow-blueprint`. If it has moved, locate the checkout containing `scripts/resolve-project-flow.cjs` and `documents/workflow/project-start.md`. Read the architecture entry, common redlines and project start guide there. Keep those rules in the workbench.
+
+Apply common redline R01's explicit-scope and creative-discretion boundary to every user project, including subsequent implementation in an existing branch. Implement only the stated needs and adopted sources unless the user explicitly grants creative freedom for a specified scope. A reuse/optimization request does not authorize invented effects or functionality. When the requested source behavior cannot be located, report the gap instead of inventing a replacement. Validate scope/source fidelity separately from runtime correctness. R01 is the single maintained rule; ordinary implementation, necessary tests, compatibility work and fixes remain executable within the authorized goal without repeated approval.
 
 Apply common redline R01's source-edit boundary: source components, templates, variables, styles and specifications are read-only unless the user explicitly authorizes modifying those source objects. A source link or an instruction to adjust a target deliverable does not grant source-edit permission. Report source defects and proposed changes; continue within the authorized target scope without silently repairing the source.
 
@@ -16,7 +18,11 @@ Apply common redline R01's source-edit boundary: source components, templates, v
 
 For an agreed brand and a local color change, follow the existing Token. For a new brand direction or a missing design rule, consult the workbench brand guide's optional design research branch. Keep draft design recommendations separate from adopted rules.
 
+For a compound request spanning distinct deliverables or workflow stages, apply "复合任务拆解与阶段交接" in `documents/workflow/project-start.md`. Split by verifiable outcomes and dependencies, carry evidence and adoption/assumption/unknown states into downstream work, preserve meaning during editing, and report per-task and combined completion. Use each branch's professional exit criteria. Keep small edits direct; do not require approval at every stage, create extra handoff documents, or treat switching skills as independent review. Parallel execution is conditional and follows the existing parallel-development branch and actual authorization.
+
 When one user plans parallel development of the same project across multiple AI windows or agents, read "按需分支：多AI窗口并行开发" in `documents/workflow/development.md`. Evaluate task dependencies before splitting work; record isolated workspaces, shared-change ownership, handoff and integration evidence in existing project tasks. This routes the workflow; it does not itself dispatch windows, lock files or authorize additional agents.
+
+For isolation preparation, deliver the executable handoff as soon as the baseline, workspace and modification boundaries are ready; do not defer it behind unrelated cleanup or subsequent page development. Reuse already-read, unchanged rules and applicable verification within the task, refreshing affected evidence when inputs change. Recheck mutable cross-window state before handoff, writes or integration. Apply the central branch's preparation exit criteria rather than expanding preparation into full-project validation.
 
 For design-source intake, read the conditional branches in `documents/workflow/design.md`. Route missing Tokens to source-based extraction, and external layouts with existing Tokens to semantic adaptation. For maintained Figma designs with reusable components, include design-component identity, properties, Token bindings and the code contract in the existing mapping record. Keep unimplemented contracts and verified code mappings distinct. Select the scope from actual reuse needs. Use the available Figma skills for file operations and report tool access and unverified bindings explicitly.
 
