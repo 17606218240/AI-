@@ -1,0 +1,54 @@
+{
+  "skill": {
+    "before": 10952,
+    "after": 4157
+  },
+  "designEntry": {
+    "before": 25278,
+    "after": 8405
+  },
+  "linksChecked": 55,
+  "linkIssues": [],
+  "historyExact": true,
+  "presentationBulletsRetained": 14,
+  "resolver": [
+    {
+      "kind": "b-web",
+      "change": "token",
+      "branch": "token",
+      "equal": true
+    },
+    {
+      "kind": "c-web",
+      "change": "feature",
+      "branch": "reuse",
+      "equal": true
+    },
+    {
+      "kind": "installed-app",
+      "change": "feature",
+      "branch": "reuse",
+      "equal": true
+    },
+    {
+      "kind": "b-web",
+      "change": "component",
+      "branch": "component",
+      "equal": true
+    },
+    {
+      "kind": "c-web",
+      "change": "redesign",
+      "branch": "brand",
+      "equal": true
+    },
+    {
+      "kind": "service",
+      "change": "feature",
+      "branch": "service",
+      "equal": true
+    }
+  ],
+  "invalidInputsUnchanged": 2,
+  "professionalNodeContractsUnchanged": true
+}
