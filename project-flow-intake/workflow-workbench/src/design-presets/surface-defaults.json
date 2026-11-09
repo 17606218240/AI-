@@ -1,0 +1,22 @@
+{
+  "b-web": {
+    "preset": "ant-web-default",
+    "adapter": "ant-web"
+  },
+  "c-web": {
+    "preset": "c-web-default",
+    "adapter": "css"
+  },
+  "mobile-web": {
+    "preset": "mobile-web-default",
+    "adapter": "css"
+  },
+  "installed-app": {
+    "preset": "app-default",
+    "adapter": "native"
+  },
+  "mini-program": {
+    "preset": "mini-program-default",
+    "adapter": "host"
+  }
+}

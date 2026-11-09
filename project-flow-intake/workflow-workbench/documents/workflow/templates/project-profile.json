@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "name": "",
+  "goal": "",
+  "baseline": "",
+  "surfaces": [
+    {
+      "id": "",
+      "kind": "",
+      "audience": "",
+      "task": "",
+      "distribution": "",
+      "assets": {
+        "status": "",
+        "references": []
+      },
+      "adoptionBasis": "",
+      "change": {
+        "kind": "",
+        "description": "",
+        "requiredBehaviors": []
+      },
+      "constraints": []
+    }
+  ],
+  "checks": []
+}
